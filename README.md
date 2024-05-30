@@ -13,11 +13,8 @@ This system uses a camera to capture the driver's facial expressions and eye mov
 **Features**
 
 Real-time drowsiness detection
-
 Alerts the driver when drowsiness is detected
-
 Uses OpenCV for image processing
-
 Utilizes machine learning models for drowsiness detection
 
 **Installation**
@@ -33,15 +30,20 @@ Steps
 Clone the repository:
 1.git clone https://github.com/khushboo9761/driver_drowsiness_detection.git
 cd driver_drowsiness_detection
+
 2.Create and activate a virtual environment:
 python -m venv venv
+
 source venv/bin/activate   # On Windows use `venv\Scripts\activate`
 3.Install the required packages:
+
 pip install -r requirements.txt
+
 4.Download the shape predictor model:
+
 wget http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
 bzip2 -d shape_predictor_68_face_landmarks.dat.bz2
-**Usage**
+
 1. Ensure your webcam is connected.
 2. Run the following command to start the detection system
    python detect_drowsiness.py
