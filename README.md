@@ -1,17 +1,23 @@
 
 **Driver Drowsiness Detection System**
+
 This project aims to detect driver drowsiness to prevent road accidents caused by drowsy driving. 
 The system uses computer vision techniques to monitor the driver's facial expressions and eye movements to detect signs of drowsiness.
 
 
 **Introduction**
+
 Driver drowsiness detection is a safety technology that can prevent accidents caused by drivers falling asleep behind the wheel.
 This system uses a camera to capture the driver's facial expressions and eye movements and applies machine learning algorithms to detect drowsiness.
 
 **Features**
+
 Real-time drowsiness detection
+
 Alerts the driver when drowsiness is detected
+
 Uses OpenCV for image processing
+
 Utilizes machine learning models for drowsiness detection
 
 **Installation**
