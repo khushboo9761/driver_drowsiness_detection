@@ -49,3 +49,4 @@ bzip2 -d shape_predictor_68_face_landmarks.dat.bz2
 
 2. Run the following command to start the detection system
    python detect_drowsiness.py
+   ![Train image]("C:\Users\khush\Desktop\drowsiness_detection\screenshots\Screenshot 2024-05-30 065138.png")
