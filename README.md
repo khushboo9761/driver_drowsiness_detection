@@ -1,24 +1,21 @@
-**This text is bold**
-_Driver Drowsiness Detection System_
+
+**Driver Drowsiness Detection System**
 This project aims to detect driver drowsiness to prevent road accidents caused by drowsy driving. 
 The system uses computer vision techniques to monitor the driver's facial expressions and eye movements to detect signs of drowsiness.
 
-**This text is bold**
-_Introduction_
+
+**Introduction**
 Driver drowsiness detection is a safety technology that can prevent accidents caused by drivers falling asleep behind the wheel.
 This system uses a camera to capture the driver's facial expressions and eye movements and applies machine learning algorithms to detect drowsiness.
 
-**This text is bold**
-_Features_
+**Features**
 Real-time drowsiness detection
 Alerts the driver when drowsiness is detected
 Uses OpenCV for image processing
 Utilizes machine learning models for drowsiness detection
 
-**This text is bold**
-_Installation_
-**This text is bold**
-_Prerequisites_
+**Installation**
+**Prerequisites**
 Python 3.6 or higher
 OpenCV
 dlib
@@ -38,8 +35,7 @@ pip install -r requirements.txt
 4.Download the shape predictor model:
 wget http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
 bzip2 -d shape_predictor_68_face_landmarks.dat.bz2
-**This text is bold**
-_Usage_
+**Usage**
 1. Ensure your webcam is connected.
 2. Run the following command to start the detection system
    python detect_drowsiness.py
