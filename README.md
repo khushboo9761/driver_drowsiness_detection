@@ -18,7 +18,9 @@ Uses OpenCV for image processing
 Utilizes machine learning models for drowsiness detection
 
 **Installation**
+
 **Prerequisites**
+
 Python 3.6 or higher
 OpenCV
 dlib
@@ -28,6 +30,7 @@ SciPy
 scikit-learn
 Steps
 Clone the repository:
+
 1.git clone https://github.com/khushboo9761/driver_drowsiness_detection.git
 cd driver_drowsiness_detection
 
