@@ -35,6 +35,7 @@ cd driver_drowsiness_detection
 python -m venv venv
 
 source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+
 3.Install the required packages:
 
 pip install -r requirements.txt
@@ -45,5 +46,6 @@ wget http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
 bzip2 -d shape_predictor_68_face_landmarks.dat.bz2
 
 1. Ensure your webcam is connected.
+
 2. Run the following command to start the detection system
    python detect_drowsiness.py
