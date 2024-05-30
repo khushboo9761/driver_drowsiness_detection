@@ -55,3 +55,6 @@ bzip2 -d shape_predictor_68_face_landmarks.dat.bz2
    
 ![Train image](screenshots/Screenshot%202024-05-30%20065138.png)
 
+![Train image](screenshots/Screenshot%202024-05-30%20065206.png)
+
+
